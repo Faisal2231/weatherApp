@@ -1,0 +1,121 @@
+body {
+    padding: 0px;
+    background-image: url("./Assets/background-img.jpg");
+}
+
+.search-input {
+    margin-left: 400px;
+    width: 520px;
+    height: 40px;
+    border-radius: 40px;
+    border: 2px solid white;
+}
+
+.location-box {
+    /* border: 2px solid black; */
+    width: 350px;
+    height: 140px;
+    margin-top: 5px;
+    margin-left: 40px;
+    /* background-color: rgb(200, 224, 224); */
+    color: rgb(73, 0, 95);
+}
+
+.temp-parent-box {
+    width: 1320px;
+    height: 170px;
+    margin-top: 10px;
+    margin-left: 40px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-tempreture-box {
+    margin-left: 120px;
+    width: 400px;
+    height: 165px;
+    /* border: 2px solid rgb(13, 208, 243); */
+    display: grid;
+    grid-template-columns: auto auto;
+    color: rgb(236, 231, 236);
+}
+
+.main-tempreture-child-box1 {
+    width: 130px;
+    height: 160px;
+    /* border: 2px solid black; */
+}
+
+.main-tempreture-child-box2 {
+    width: 200px;
+    height: 160px;
+    /* border: 2px solid black; */
+}
+
+.tempreture {
+    font-size: 55px;
+    margin-bottom: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.icons {
+    width: 130px;
+    height: 150px;
+}
+
+.tempreture-details {
+    width: 600px;
+    height: 160px;
+    margin-right: 16px;
+    border: 2px solid rgb(248, 244, 244);
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    color: white;
+}
+
+.tempreture-details-child-box {
+    width: 140px;
+    height: 150px;
+    /* color: rgb(26, 25, 25); */
+    /* border: 2px solid black; */
+}
+
+.other-details-box {
+    width: 1320px;
+    height: 140px;
+    /* border: 2px solid black; */
+    margin-left: 40px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+}
+
+.other-details-child-boxes {
+    width: 150px;
+    height: 120px;
+    margin-left: 48px;
+    color: white;
+    border: 2px solid white;
+}
+
+.country-name {
+    font-style: italic;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 40px;
+}
+
+.other-details {
+    color: rgb(1, 37, 15);
+    margin-left: 87px;
+}
+
+p {
+    text-align: center;
+    font-size: 40px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+h2 {
+    font-family: "Times New Roman", Times, serif;
+    margin-left: 20px;
+}
